@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
 )
 
 // A Hook specifies one of the hooks built into the network stack.

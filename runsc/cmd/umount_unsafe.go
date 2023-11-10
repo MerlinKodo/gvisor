@@ -20,11 +20,11 @@ import (
 	"syscall"
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/runsc/cmd/util"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 	"github.com/google/subcommands"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/runsc/cmd/util"
-	"github.com/metacubex/gvisor/runsc/flag"
 )
 
 // Umount implements subcommands.Command for the "umount" command.

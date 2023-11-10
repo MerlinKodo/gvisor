@@ -17,10 +17,10 @@ package kvm
 import (
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/ring0"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sighandling"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/ring0"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sighandling"
 )
 
 // bluepill enters guest mode.

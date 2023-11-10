@@ -8,7 +8,7 @@
 package atomicbitops
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (f *Float64) StateTypeName() string {

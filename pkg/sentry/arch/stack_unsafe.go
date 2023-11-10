@@ -17,8 +17,8 @@ package arch
 import (
 	"unsafe"
 
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/marshal/primitive"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/marshal/primitive"
 )
 
 // pushAddrSliceAndTerminator copies a slices of addresses to the stack, and

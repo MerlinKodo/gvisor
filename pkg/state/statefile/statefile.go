@@ -56,8 +56,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/compressio"
-	"github.com/metacubex/gvisor/pkg/state/wire"
+	"github.com/MerlinKodo/gvisor/pkg/compressio"
+	"github.com/MerlinKodo/gvisor/pkg/state/wire"
 )
 
 // keySize is the AES-256 key length.

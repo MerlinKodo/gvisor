@@ -55,7 +55,7 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 var bufPool = sync.Pool{

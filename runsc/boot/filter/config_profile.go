@@ -18,8 +18,8 @@
 package filter
 
 import (
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/seccomp"
 )
 
 // profileFilters returns extra syscalls made by runtime/pprof package.

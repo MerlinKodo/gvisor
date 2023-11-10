@@ -17,16 +17,16 @@ package tun
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/buffer"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/link/channel"
-	"github.com/metacubex/gvisor/pkg/tcpip/link/packetsocket"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
-	"github.com/metacubex/gvisor/pkg/waiter"
+	"github.com/MerlinKodo/gvisor/pkg/buffer"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/link/channel"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/link/packetsocket"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 )
 
 const (

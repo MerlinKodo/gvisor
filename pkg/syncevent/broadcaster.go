@@ -15,7 +15,7 @@
 package syncevent
 
 import (
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // Broadcaster is an implementation of Source that supports any number of

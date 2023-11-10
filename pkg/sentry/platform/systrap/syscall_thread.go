@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"sync/atomic"
 
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/memmap"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/pgalloc"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/usage"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/memmap"
-	"github.com/metacubex/gvisor/pkg/sentry/pgalloc"
-	"github.com/metacubex/gvisor/pkg/sentry/platform/systrap/sysmsg"
-	"github.com/metacubex/gvisor/pkg/sentry/usage"
 )
 
 // The syscall message consists of sentry and stub messages.

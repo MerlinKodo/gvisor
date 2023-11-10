@@ -15,9 +15,9 @@
 package auth
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
 )
 
 // MapFromKUID translates kuid, a UID in the root namespace, to a UID in ns.

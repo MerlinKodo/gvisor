@@ -17,8 +17,8 @@ package kvm
 import (
 	"golang.org/x/sys/unix"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/seccomp"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
 )
 
 // archSyscallFilters returns arch-specific syscalls made exclusively by the

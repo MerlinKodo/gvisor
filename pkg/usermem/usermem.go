@@ -21,11 +21,11 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/gohacks"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/safemem"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/gohacks"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
 )
 
 // IO provides access to the contents of a virtual memory space.

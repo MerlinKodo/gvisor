@@ -21,9 +21,9 @@ import (
 	"runtime/pprof"
 	"runtime/trace"
 
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/sentry/control"
-	"github.com/metacubex/gvisor/runsc/flag"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/control"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 )
 
 // Kind is the kind of profiling to perform.

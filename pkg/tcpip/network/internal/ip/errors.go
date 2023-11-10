@@ -17,7 +17,7 @@ package ip
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 // ForwardingError represents an error that occured while trying to forward

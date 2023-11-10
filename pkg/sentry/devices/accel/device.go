@@ -18,12 +18,12 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/fdnotifier"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/devtmpfs"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/fdnotifier"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/devtmpfs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // accelDevice implements vfs.Device for /dev/accel[0-9]+.

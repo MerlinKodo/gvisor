@@ -22,11 +22,11 @@ import (
 	"os"
 	"sync"
 
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
 	"github.com/containerd/containerd/log"
 	"github.com/containerd/fifo"
 	runc "github.com/containerd/go-runc"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
 )
 
 // TODO(random-liu): This file can be a util.

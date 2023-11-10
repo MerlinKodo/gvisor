@@ -22,18 +22,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/abi"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/bits"
-	"github.com/metacubex/gvisor/pkg/eventchannel"
-	"github.com/metacubex/gvisor/pkg/marshal/primitive"
-	"github.com/metacubex/gvisor/pkg/seccomp"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
-	pb "github.com/metacubex/gvisor/pkg/sentry/strace/strace_go_proto"
-	slinux "github.com/metacubex/gvisor/pkg/sentry/syscalls/linux"
+	"github.com/MerlinKodo/gvisor/pkg/abi"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/bits"
+	"github.com/MerlinKodo/gvisor/pkg/eventchannel"
+	"github.com/MerlinKodo/gvisor/pkg/marshal/primitive"
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
+	pb "github.com/MerlinKodo/gvisor/pkg/sentry/strace/strace_go_proto"
+	slinux "github.com/MerlinKodo/gvisor/pkg/sentry/syscalls/linux"
 
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // DefaultLogMaximumSize is the default LogMaximumSize.

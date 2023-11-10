@@ -17,11 +17,11 @@ package fsutil
 import (
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/memmap"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/safemem"
-	"github.com/metacubex/gvisor/pkg/sentry/memmap"
 )
 
 // HostFileMapper caches mappings of an arbitrary host file descriptor. It is

@@ -3,7 +3,7 @@
 package sys
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (r *dirRefs) StateTypeName() string {

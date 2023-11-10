@@ -20,12 +20,12 @@ package ptrace
 import (
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/hosttid"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/hosttid"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/seccomp"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
 )
 
 const syscallEvent unix.Signal = 0x80

@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/MerlinKodo/gvisor/pkg/syncevent"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/sentry/platform"
-	"github.com/metacubex/gvisor/pkg/sentry/platform/systrap/sysmsg"
-	"github.com/metacubex/gvisor/pkg/syncevent"
 )
 
 const (

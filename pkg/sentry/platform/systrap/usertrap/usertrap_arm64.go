@@ -18,11 +18,11 @@
 package usertrap
 
 import (
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/memmap"
-	"github.com/metacubex/gvisor/pkg/usermem"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/memmap"
+	"github.com/MerlinKodo/gvisor/pkg/usermem"
 )
 
 // trapNR is the maximum number of traps what can fit in the trap table.

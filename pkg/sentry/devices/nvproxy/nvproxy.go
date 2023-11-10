@@ -21,14 +21,14 @@ package nvproxy
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/abi/nvgpu"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/marshal"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/devtmpfs"
-	"github.com/metacubex/gvisor/pkg/sentry/mm"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
+	"github.com/MerlinKodo/gvisor/pkg/abi/nvgpu"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/marshal"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/devtmpfs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/mm"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
 )
 
 // Register registers all devices implemented by this package in vfsObj.

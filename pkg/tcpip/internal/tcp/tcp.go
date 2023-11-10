@@ -19,7 +19,7 @@ package tcp
 import (
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 // TSOffset is an offset applied to the value of the TSVal field in the TCP

@@ -20,9 +20,9 @@ import (
 	"path"
 	"strings"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
 )
 
 type mapping struct {

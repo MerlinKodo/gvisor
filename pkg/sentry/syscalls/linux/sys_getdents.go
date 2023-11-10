@@ -17,13 +17,13 @@ package linux
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/usermem"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/usermem"
 )
 
 // Getdents implements Linux syscall getdents(2).

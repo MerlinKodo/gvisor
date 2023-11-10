@@ -17,7 +17,7 @@ package tcpip
 import (
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // jobInstance is a specific instance of Job.

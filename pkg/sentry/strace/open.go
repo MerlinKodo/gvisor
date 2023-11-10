@@ -15,8 +15,8 @@
 package strace
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/abi"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
 )
 
 // OpenMode represents the mode to open(2) a file.

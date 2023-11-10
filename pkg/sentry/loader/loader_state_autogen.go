@@ -3,7 +3,7 @@
 package loader
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (v *VDSO) StateTypeName() string {

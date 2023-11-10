@@ -21,8 +21,8 @@ import (
 	"sync"
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
 )
 
 // maskPool contains reusable CPU masks for setting affinity. Unfortunately,

@@ -3,7 +3,7 @@
 package semaphore
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (r *Registry) StateTypeName() string {

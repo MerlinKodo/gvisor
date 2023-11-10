@@ -20,11 +20,11 @@ package syserr
 import (
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux/errno"
+	"github.com/MerlinKodo/gvisor/pkg/errors"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/safecopy"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux/errno"
-	"github.com/metacubex/gvisor/pkg/errors"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/safecopy"
 )
 
 // Error represents an internal error.

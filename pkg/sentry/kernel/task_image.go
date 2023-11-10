@@ -17,14 +17,14 @@ package kernel
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux/errno"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/futex"
-	"github.com/metacubex/gvisor/pkg/sentry/loader"
-	"github.com/metacubex/gvisor/pkg/sentry/mm"
-	"github.com/metacubex/gvisor/pkg/syserr"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux/errno"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/futex"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/loader"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/mm"
+	"github.com/MerlinKodo/gvisor/pkg/syserr"
 )
 
 var errNoSyscalls = syserr.New("no syscall table found", errno.ENOEXEC)

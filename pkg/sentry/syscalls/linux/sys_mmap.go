@@ -17,14 +17,14 @@ package linux
 import (
 	"bytes"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/tmpfs"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
-	"github.com/metacubex/gvisor/pkg/sentry/memmap"
-	"github.com/metacubex/gvisor/pkg/sentry/mm"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/tmpfs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/memmap"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/mm"
 )
 
 // Brk implements linux syscall brk(2).

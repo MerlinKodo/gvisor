@@ -17,15 +17,15 @@ package kernel
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/mqfs"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/nsfs"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/auth"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/mq"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/msgqueue"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/semaphore"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/shm"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/mqfs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/nsfs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/auth"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/mq"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/msgqueue"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/semaphore"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/shm"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
 )
 
 // IPCNamespace represents an IPC namespace.

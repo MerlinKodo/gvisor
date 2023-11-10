@@ -15,7 +15,7 @@
 package arch
 
 import (
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // An AuxEntry represents an entry in an ELF auxiliary vector.

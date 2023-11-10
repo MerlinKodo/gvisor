@@ -18,7 +18,7 @@
 package systrap
 
 import (
-	"github.com/metacubex/gvisor/pkg/seccomp"
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
 )
 
 // SyscallFilters returns syscalls made exclusively by the systrap platform.

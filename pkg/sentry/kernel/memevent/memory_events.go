@@ -19,13 +19,13 @@ package memevent
 import (
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/eventchannel"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/metric"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
-	pb "github.com/metacubex/gvisor/pkg/sentry/kernel/memevent/memory_events_go_proto"
-	"github.com/metacubex/gvisor/pkg/sentry/usage"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/eventchannel"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/metric"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
+	pb "github.com/MerlinKodo/gvisor/pkg/sentry/kernel/memevent/memory_events_go_proto"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/usage"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 var totalTicks = metric.MustCreateNewUint64Metric("/memory_events/ticks", false /*sync*/, "Total number of memory event periods that have elapsed since startup.")

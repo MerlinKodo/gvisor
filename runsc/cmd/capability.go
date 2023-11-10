@@ -17,9 +17,9 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/syndtr/gocapability/capability"
-	"github.com/metacubex/gvisor/pkg/log"
 )
 
 var allCapTypes = []capability.CapType{

@@ -6,7 +6,7 @@
 package arch
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (c *Context64) StateTypeName() string {

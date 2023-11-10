@@ -25,10 +25,10 @@ import (
 	"strconv"
 	"text/tabwriter"
 
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
+	"github.com/MerlinKodo/gvisor/runsc/cmd/util"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 	"github.com/google/subcommands"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
-	"github.com/metacubex/gvisor/runsc/cmd/util"
-	"github.com/metacubex/gvisor/runsc/flag"
 )
 
 // Syscalls implements subcommands.Command for the "syscalls" command.

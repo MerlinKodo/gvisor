@@ -15,7 +15,7 @@
 package systrap
 
 import (
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
 )
 
 func stackPointer(r *arch.Registers) uintptr {

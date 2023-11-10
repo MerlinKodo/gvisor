@@ -21,7 +21,7 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/cpu"
-	"github.com/metacubex/gvisor/pkg/cpuid"
+	"github.com/MerlinKodo/gvisor/pkg/cpuid"
 )
 
 var arm64HasATOMICS bool

@@ -15,7 +15,7 @@
 package boot
 
 import (
-	"github.com/metacubex/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/log"
 )
 
 type debug struct {

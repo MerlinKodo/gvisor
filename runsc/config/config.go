@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/refs"
-	"github.com/metacubex/gvisor/pkg/sentry/watchdog"
-	"github.com/metacubex/gvisor/runsc/flag"
-	"github.com/metacubex/gvisor/runsc/version"
+	"github.com/MerlinKodo/gvisor/pkg/refs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/watchdog"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
+	"github.com/MerlinKodo/gvisor/runsc/version"
 )
 
 // Config holds configuration that is not part of the runtime spec.

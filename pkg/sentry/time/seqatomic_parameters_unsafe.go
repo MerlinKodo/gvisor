@@ -3,8 +3,8 @@ package time
 import (
 	"unsafe"
 
-	"github.com/metacubex/gvisor/pkg/gohacks"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/gohacks"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // SeqAtomicLoad returns a copy of *ptr, ensuring that the read does not race

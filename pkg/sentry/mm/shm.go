@@ -15,11 +15,11 @@
 package mm
 
 import (
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/shm"
-	"github.com/metacubex/gvisor/pkg/sentry/memmap"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/shm"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/memmap"
 )
 
 // DetachShm unmaps a sysv shared memory segment.

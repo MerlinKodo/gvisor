@@ -23,7 +23,7 @@ package marshal
 import (
 	"io"
 
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // CopyContext defines the memory operations required to marshal to and from

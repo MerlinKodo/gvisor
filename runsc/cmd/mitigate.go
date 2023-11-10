@@ -21,11 +21,11 @@ import (
 	"os"
 	"runtime"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/runsc/cmd/util"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
+	"github.com/MerlinKodo/gvisor/runsc/mitigate"
 	"github.com/google/subcommands"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/runsc/cmd/util"
-	"github.com/metacubex/gvisor/runsc/flag"
-	"github.com/metacubex/gvisor/runsc/mitigate"
 )
 
 const (

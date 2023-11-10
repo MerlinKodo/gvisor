@@ -18,7 +18,7 @@
 package ring0
 
 import (
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
 )
 
 // This is an assembly function.

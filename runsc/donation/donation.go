@@ -21,8 +21,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/runsc/specutils"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/runsc/specutils"
 )
 
 // LogDonations logs the FDs we are donating in the command.

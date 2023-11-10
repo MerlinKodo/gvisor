@@ -44,10 +44,10 @@ import (
 	"fmt"
 	"math/bits"
 
+	"github.com/MerlinKodo/gvisor/pkg/cleanup"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/memutil"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/cleanup"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/memutil"
 )
 
 // A ControlBlock contains all the control structures necessary to use an

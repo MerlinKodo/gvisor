@@ -15,9 +15,9 @@
 package inet
 
 import (
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/nsfs"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/auth"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/nsfs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/auth"
 )
 
 // Namespace represents a network namespace. See network_namespaces(7).

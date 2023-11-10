@@ -23,19 +23,19 @@ import (
 	"runtime"
 	"strconv"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/urpc"
+	"github.com/MerlinKodo/gvisor/runsc/boot"
+	"github.com/MerlinKodo/gvisor/runsc/config"
+	"github.com/MerlinKodo/gvisor/runsc/sandbox/bpf"
+	"github.com/MerlinKodo/gvisor/runsc/specutils"
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
-	"github.com/metacubex/gvisor/pkg/urpc"
-	"github.com/metacubex/gvisor/runsc/boot"
-	"github.com/metacubex/gvisor/runsc/config"
-	"github.com/metacubex/gvisor/runsc/sandbox/bpf"
-	"github.com/metacubex/gvisor/runsc/specutils"
 )
 
 // setupNetwork configures the network stack to mimic the local network

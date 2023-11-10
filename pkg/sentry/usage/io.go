@@ -14,7 +14,7 @@
 
 package usage
 
-import "github.com/metacubex/gvisor/pkg/atomicbitops"
+import "github.com/MerlinKodo/gvisor/pkg/atomicbitops"
 
 // IO contains I/O-related statistics.
 //

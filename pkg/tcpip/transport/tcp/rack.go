@@ -17,9 +17,9 @@ package tcp
 import (
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/seqnum"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/seqnum"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
 )
 
 const (

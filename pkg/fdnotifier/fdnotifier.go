@@ -25,8 +25,8 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/waiter"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 )
 
 type fdInfo struct {

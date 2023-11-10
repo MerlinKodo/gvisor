@@ -33,12 +33,12 @@ import (
 	"github.com/containerd/containerd/pkg/process"
 	"github.com/containerd/containerd/pkg/stdio"
 
+	"github.com/MerlinKodo/gvisor/pkg/shim/runsc"
+	"github.com/MerlinKodo/gvisor/pkg/shim/utils"
 	"github.com/containerd/fifo"
 	runc "github.com/containerd/go-runc"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/shim/runsc"
-	"github.com/metacubex/gvisor/pkg/shim/utils"
 )
 
 const statusStopped = "stopped"

@@ -18,8 +18,8 @@
 package ring0
 
 import (
-	"github.com/metacubex/gvisor/pkg/cpuid"
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/cpuid"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // fxrstor restores floating point state.

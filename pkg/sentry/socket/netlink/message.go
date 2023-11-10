@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/bits"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/marshal"
-	"github.com/metacubex/gvisor/pkg/marshal/primitive"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/bits"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/marshal"
+	"github.com/MerlinKodo/gvisor/pkg/marshal/primitive"
 )
 
 // alignPad returns the length of padding required for alignment.

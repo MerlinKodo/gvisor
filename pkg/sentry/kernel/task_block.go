@@ -19,10 +19,10 @@ import (
 	"runtime/trace"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	ktime "github.com/metacubex/gvisor/pkg/sentry/kernel/time"
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/waiter"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	ktime "github.com/MerlinKodo/gvisor/pkg/sentry/kernel/time"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 )
 
 // BlockWithTimeout blocks t until an event is received from C, the application

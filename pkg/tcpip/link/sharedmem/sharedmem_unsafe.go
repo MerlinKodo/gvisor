@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/memutil"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/memutil"
 )
 
 // sharedDataPointer converts the shared data slice into a pointer so that it

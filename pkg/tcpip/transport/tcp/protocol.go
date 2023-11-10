@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/hash/jenkins"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/header/parse"
-	"github.com/metacubex/gvisor/pkg/tcpip/internal/tcp"
-	"github.com/metacubex/gvisor/pkg/tcpip/seqnum"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
-	"github.com/metacubex/gvisor/pkg/tcpip/transport/raw"
-	"github.com/metacubex/gvisor/pkg/waiter"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/hash/jenkins"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header/parse"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/internal/tcp"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/seqnum"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/transport/raw"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 )
 
 const (

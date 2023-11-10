@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/MerlinKodo/gvisor/pkg/coverage"
+	"github.com/MerlinKodo/gvisor/runsc/cmd/util"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 	"github.com/google/subcommands"
-	"github.com/metacubex/gvisor/pkg/coverage"
-	"github.com/metacubex/gvisor/runsc/cmd/util"
-	"github.com/metacubex/gvisor/runsc/flag"
 )
 
 // Symbolize implements subcommands.Command for the "symbolize" command.

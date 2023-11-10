@@ -18,10 +18,10 @@ import (
 	"container/heap"
 	"math"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/seqnum"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/seqnum"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
 )
 
 // receiver holds the state necessary to receive TCP segments and turn them

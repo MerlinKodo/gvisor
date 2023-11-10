@@ -17,11 +17,11 @@ package kernel
 import (
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/refs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/socket/unix/transport"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/refs"
-	"github.com/metacubex/gvisor/pkg/sentry/socket/unix/transport"
-	"github.com/metacubex/gvisor/pkg/sync"
 )
 
 // +stateify savable

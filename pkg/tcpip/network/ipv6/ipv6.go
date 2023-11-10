@@ -24,17 +24,17 @@ import (
 	"sort"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/buffer"
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/header/parse"
-	"github.com/metacubex/gvisor/pkg/tcpip/network/hash"
-	"github.com/metacubex/gvisor/pkg/tcpip/network/internal/fragmentation"
-	"github.com/metacubex/gvisor/pkg/tcpip/network/internal/ip"
-	"github.com/metacubex/gvisor/pkg/tcpip/network/internal/multicast"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/buffer"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header/parse"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/network/hash"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/network/internal/fragmentation"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/network/internal/ip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/network/internal/multicast"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
 )
 
 const (

@@ -17,7 +17,7 @@
 package filter
 
 import (
-	"github.com/metacubex/gvisor/pkg/seccomp"
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
 )
 
 // instrumentationFilters returns additional filters for syscalls used by

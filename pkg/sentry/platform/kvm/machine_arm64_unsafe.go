@@ -22,13 +22,13 @@ import (
 	"reflect"
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/ring0"
+	"github.com/MerlinKodo/gvisor/pkg/ring0/pagetables"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform"
+	ktime "github.com/MerlinKodo/gvisor/pkg/sentry/time"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/ring0"
-	"github.com/metacubex/gvisor/pkg/ring0/pagetables"
-	"github.com/metacubex/gvisor/pkg/sentry/platform"
-	ktime "github.com/metacubex/gvisor/pkg/sentry/time"
 )
 
 type kvmVcpuInit struct {

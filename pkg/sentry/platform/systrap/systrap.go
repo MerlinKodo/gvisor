@@ -53,16 +53,16 @@ import (
 	"os"
 	"sync"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	pkgcontext "github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/memutil"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/pgalloc"
-	"github.com/metacubex/gvisor/pkg/sentry/platform"
-	"github.com/metacubex/gvisor/pkg/sentry/platform/interrupt"
-	"github.com/metacubex/gvisor/pkg/sentry/platform/systrap/sysmsg"
-	"github.com/metacubex/gvisor/pkg/sentry/platform/systrap/usertrap"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	pkgcontext "github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/memutil"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/pgalloc"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform/interrupt"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform/systrap/usertrap"
 )
 
 var (

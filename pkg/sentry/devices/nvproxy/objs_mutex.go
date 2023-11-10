@@ -3,8 +3,8 @@ package nvproxy
 import (
 	"reflect"
 
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/sync/locking"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync/locking"
 )
 
 // Mutex is sync.Mutex with the correctness validator.

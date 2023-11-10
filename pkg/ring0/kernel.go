@@ -15,7 +15,7 @@
 package ring0
 
 import (
-	"github.com/metacubex/gvisor/pkg/sentry/arch/fpu"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch/fpu"
 )
 
 // Init initializes a new kernel.

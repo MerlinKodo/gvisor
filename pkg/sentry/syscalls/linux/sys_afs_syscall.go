@@ -15,11 +15,11 @@
 package linux
 
 import (
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
 )
 
 var afsSyscallPanic = atomicbitops.Bool{}

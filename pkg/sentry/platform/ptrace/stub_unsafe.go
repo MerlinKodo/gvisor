@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/safecopy"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/safecopy"
 )
 
 // stub is defined in arch-specific assembly.

@@ -25,11 +25,11 @@ import (
 	"fmt"
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/memmap"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/pgalloc"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform/systrap/sysmsg"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/memmap"
-	"github.com/metacubex/gvisor/pkg/sentry/pgalloc"
-	"github.com/metacubex/gvisor/pkg/sentry/platform/systrap/sysmsg"
 )
 
 //go:linkname beforeFork syscall.runtime_BeforeFork

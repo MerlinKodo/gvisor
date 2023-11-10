@@ -1,8 +1,8 @@
 package overlay
 
 import (
-	"github.com/metacubex/gvisor/pkg/fspath"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
+	"github.com/MerlinKodo/gvisor/pkg/fspath"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
 )
 
 // IsAncestorDentry returns true if d is an ancestor of d2; that is, d is

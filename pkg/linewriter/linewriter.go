@@ -18,7 +18,7 @@ package linewriter
 import (
 	"bytes"
 
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // Writer is an io.Writer which buffers input, flushing

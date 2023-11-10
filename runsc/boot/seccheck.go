@@ -19,12 +19,12 @@ import (
 	"io"
 	"os"
 
-	"github.com/metacubex/gvisor/pkg/fd"
-	"github.com/metacubex/gvisor/pkg/sentry/seccheck"
+	"github.com/MerlinKodo/gvisor/pkg/fd"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/seccheck"
 
 	// Register supported of sinks.
-	_ "github.com/metacubex/gvisor/pkg/sentry/seccheck/sinks/null"
-	_ "github.com/metacubex/gvisor/pkg/sentry/seccheck/sinks/remote"
+	_ "github.com/MerlinKodo/gvisor/pkg/sentry/seccheck/sinks/null"
+	_ "github.com/MerlinKodo/gvisor/pkg/sentry/seccheck/sinks/remote"
 )
 
 // InitConfig represents the configuration to apply during pod creation. For

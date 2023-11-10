@@ -14,7 +14,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/metacubex/gvisor/pkg/goid"
+	"github.com/MerlinKodo/gvisor/pkg/goid"
 )
 
 // gLocks contains metadata about the locks held by a goroutine.

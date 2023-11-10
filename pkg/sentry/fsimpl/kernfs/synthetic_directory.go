@@ -17,11 +17,11 @@ package kernfs
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/auth"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/auth"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
 )
 
 // syntheticDirectory implements kernfs.Inode for a directory created by

@@ -19,7 +19,7 @@
 package arch
 
 import (
-	"github.com/metacubex/gvisor/pkg/sentry/arch/fpu"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch/fpu"
 )
 
 // State contains the common architecture bits for X86 (the build tag of this

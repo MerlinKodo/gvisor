@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/cpuid"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/marshal"
-	"github.com/metacubex/gvisor/pkg/sentry/arch/fpu"
-	"github.com/metacubex/gvisor/pkg/sentry/limits"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/cpuid"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/marshal"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch/fpu"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/limits"
 )
 
 // Arch describes an architecture.

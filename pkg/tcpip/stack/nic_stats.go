@@ -15,7 +15,7 @@
 package stack
 
 import (
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 type sharedStats struct {

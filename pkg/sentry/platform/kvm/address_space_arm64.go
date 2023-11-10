@@ -15,7 +15,7 @@
 package kvm
 
 import (
-	"github.com/metacubex/gvisor/pkg/ring0"
+	"github.com/MerlinKodo/gvisor/pkg/ring0"
 )
 
 // invalidate is the implementation for Invalidate.

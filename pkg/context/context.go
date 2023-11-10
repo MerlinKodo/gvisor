@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/waiter"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 )
 
 // Blocker represents an object with control flow hooks.

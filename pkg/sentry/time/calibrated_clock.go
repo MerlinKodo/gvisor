@@ -19,10 +19,10 @@ package time
 import (
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/metric"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/metric"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // CalibratedClock implements a clock that tracks a reference clock.

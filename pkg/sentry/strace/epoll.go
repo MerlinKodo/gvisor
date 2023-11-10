@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/abi"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
+	"github.com/MerlinKodo/gvisor/pkg/abi"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
 
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 func epollEvent(t *kernel.Task, eventAddr hostarch.Addr) string {

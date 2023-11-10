@@ -17,7 +17,7 @@ package atomicbitops
 import (
 	"math"
 
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // Float64 is an atomic 64-bit floating-point number.

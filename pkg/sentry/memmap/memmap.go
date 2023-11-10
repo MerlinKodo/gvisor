@@ -18,9 +18,9 @@ package memmap
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/safemem"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
 )
 
 // Mappable represents a memory-mappable object, a mutable mapping from uint64

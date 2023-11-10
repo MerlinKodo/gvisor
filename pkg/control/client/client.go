@@ -16,8 +16,8 @@
 package client
 
 import (
-	"github.com/metacubex/gvisor/pkg/unet"
-	"github.com/metacubex/gvisor/pkg/urpc"
+	"github.com/MerlinKodo/gvisor/pkg/unet"
+	"github.com/MerlinKodo/gvisor/pkg/urpc"
 )
 
 // ConnectTo attempts to connect to the sandbox with the given address.

@@ -22,7 +22,7 @@ import (
 	"io"
 
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // reader implements an io.Reader that returns pseudorandom bytes.

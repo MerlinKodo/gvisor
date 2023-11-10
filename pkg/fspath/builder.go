@@ -17,7 +17,7 @@ package fspath
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/gohacks"
+	"github.com/MerlinKodo/gvisor/pkg/gohacks"
 )
 
 // Builder is similar to strings.Builder, but is used to produce pathnames

@@ -17,8 +17,8 @@ package buffer
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/bits"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/bits"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 const (

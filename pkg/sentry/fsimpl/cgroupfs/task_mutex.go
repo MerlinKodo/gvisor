@@ -3,8 +3,8 @@ package cgroupfs
 import (
 	"reflect"
 
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/sync/locking"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync/locking"
 )
 
 // RWMutex is sync.RWMutex with the correctness validator.

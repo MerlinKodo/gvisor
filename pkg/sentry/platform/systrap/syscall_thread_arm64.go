@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
 )
 
 func (t *syscallThread) detach() {

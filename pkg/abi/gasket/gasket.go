@@ -18,7 +18,7 @@ package gasket
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
 )
 
 // Ioctl represents a gasket ioctl command.

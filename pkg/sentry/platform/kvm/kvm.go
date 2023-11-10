@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"os"
 
+	pkgcontext "github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/ring0"
+	"github.com/MerlinKodo/gvisor/pkg/ring0/pagetables"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 	"golang.org/x/sys/unix"
-	pkgcontext "github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/ring0"
-	"github.com/metacubex/gvisor/pkg/ring0/pagetables"
-	"github.com/metacubex/gvisor/pkg/sentry/platform"
-	"github.com/metacubex/gvisor/pkg/sync"
 )
 
 // userMemoryRegion is a region of physical memory.

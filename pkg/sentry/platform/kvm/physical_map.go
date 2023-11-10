@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/ring0"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/ring0"
 )
 
 type region struct {

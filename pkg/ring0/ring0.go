@@ -17,5 +17,5 @@ package ring0
 
 import (
 	// Required for facts checks.
-	_ "github.com/metacubex/gvisor/pkg/abi/linux"
+	_ "github.com/MerlinKodo/gvisor/pkg/abi/linux"
 )

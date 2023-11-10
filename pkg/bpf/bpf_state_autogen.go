@@ -3,7 +3,7 @@
 package bpf
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (p *Program) StateTypeName() string {

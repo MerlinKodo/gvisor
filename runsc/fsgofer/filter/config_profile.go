@@ -15,8 +15,8 @@
 package filter
 
 import (
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/seccomp"
 )
 
 var profileFilters = seccomp.SyscallRules{

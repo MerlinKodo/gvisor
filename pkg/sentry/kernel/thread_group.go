@@ -17,15 +17,15 @@ package kernel
 import (
 	"sync/atomic"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/auth"
-	ktime "github.com/metacubex/gvisor/pkg/sentry/kernel/time"
-	"github.com/metacubex/gvisor/pkg/sentry/limits"
-	"github.com/metacubex/gvisor/pkg/sentry/usage"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/auth"
+	ktime "github.com/MerlinKodo/gvisor/pkg/sentry/kernel/time"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/limits"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/usage"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // A ThreadGroup is a logical grouping of tasks that has widespread

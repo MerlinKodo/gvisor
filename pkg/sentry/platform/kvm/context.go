@@ -15,13 +15,13 @@
 package kvm
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	pkgcontext "github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/ring0"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/platform"
-	"github.com/metacubex/gvisor/pkg/sentry/platform/interrupt"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	pkgcontext "github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/ring0"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform/interrupt"
 )
 
 // context is an implementation of the platform context.

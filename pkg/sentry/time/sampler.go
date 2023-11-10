@@ -17,8 +17,8 @@ package time
 import (
 	"errors"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
 )
 
 const (

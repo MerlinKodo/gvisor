@@ -19,14 +19,14 @@ import (
 	"math"
 	"strings"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/bitmap"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/lock"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/limits"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/bitmap"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/lock"
-	"github.com/metacubex/gvisor/pkg/sentry/limits"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
 )
 
 // FDFlags define flags for an individual descriptor.

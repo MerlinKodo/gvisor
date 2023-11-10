@@ -15,9 +15,9 @@
 package unix
 
 import (
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/safemem"
-	"github.com/metacubex/gvisor/pkg/sentry/socket/unix/transport"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/socket/unix/transport"
 )
 
 // EndpointWriter implements safemem.Writer that writes to a transport.Endpoint.

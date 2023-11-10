@@ -17,9 +17,9 @@ package control
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/sentry/strace"
-	"github.com/metacubex/gvisor/pkg/tcpip/link/sniffer"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/strace"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/link/sniffer"
 )
 
 // LoggingArgs are the arguments to use for changing the logging

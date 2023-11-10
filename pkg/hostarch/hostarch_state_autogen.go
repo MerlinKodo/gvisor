@@ -3,7 +3,7 @@
 package hostarch
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (a *AccessType) StateTypeName() string {

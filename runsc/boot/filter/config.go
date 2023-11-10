@@ -17,10 +17,10 @@ package filter
 import (
 	"os"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/link/fdbased"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/seccomp"
-	"github.com/metacubex/gvisor/pkg/tcpip/link/fdbased"
 )
 
 // allowedSyscalls is the set of syscalls executed by the Sentry to the host OS.

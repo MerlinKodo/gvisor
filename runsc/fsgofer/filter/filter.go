@@ -18,8 +18,8 @@
 package filter
 
 import (
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/seccomp"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
 )
 
 // Options are seccomp filter related options.

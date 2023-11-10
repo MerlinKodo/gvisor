@@ -3,7 +3,7 @@
 package control
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (c *scmCredentials) StateTypeName() string {

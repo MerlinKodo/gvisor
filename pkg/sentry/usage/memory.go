@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/bits"
+	"github.com/MerlinKodo/gvisor/pkg/memutil"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/bits"
-	"github.com/metacubex/gvisor/pkg/memutil"
 )
 
 // MemoryKind represents a type of memory used by the application.

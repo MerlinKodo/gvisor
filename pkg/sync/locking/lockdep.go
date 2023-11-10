@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/goid"
-	"github.com/metacubex/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/goid"
+	"github.com/MerlinKodo/gvisor/pkg/log"
 )
 
 // NewMutexClass allocates a new mutex class.

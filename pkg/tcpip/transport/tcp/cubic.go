@@ -18,7 +18,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
 )
 
 // cubicState stores the variables related to TCP CUBIC congestion

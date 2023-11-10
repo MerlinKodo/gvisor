@@ -15,8 +15,8 @@
 package linux
 
 import (
-	"github.com/metacubex/gvisor/pkg/bits"
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/bits"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 const (

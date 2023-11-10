@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 func mldv2AndIGMPv3QuerierQueryCodeToInterval(code uint8) time.Duration {

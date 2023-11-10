@@ -17,9 +17,9 @@ package metric
 import (
 	"unsafe"
 
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/gohacks"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/gohacks"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // snapshotDistribution snapshots the sample data of distribution metrics in

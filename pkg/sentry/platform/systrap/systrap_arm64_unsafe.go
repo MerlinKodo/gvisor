@@ -20,8 +20,8 @@ package systrap
 import (
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
 )
 
 // getTLS gets the thread local storage register.

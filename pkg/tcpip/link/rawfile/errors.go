@@ -18,8 +18,8 @@
 package rawfile
 
 import (
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/tcpip"
 )
 
 const maxErrno = 134

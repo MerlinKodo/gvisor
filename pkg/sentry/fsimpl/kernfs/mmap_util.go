@@ -15,12 +15,12 @@
 package kernfs
 
 import (
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/safemem"
-	"github.com/metacubex/gvisor/pkg/sentry/fsutil"
-	"github.com/metacubex/gvisor/pkg/sentry/memmap"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsutil"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/memmap"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // inodePlatformFile implements memmap.File. It exists solely because inode

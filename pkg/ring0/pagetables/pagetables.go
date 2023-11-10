@@ -21,7 +21,7 @@
 package pagetables
 
 import (
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // PageTables is a set of page tables.

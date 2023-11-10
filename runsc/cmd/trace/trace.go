@@ -19,9 +19,9 @@ import (
 	"bytes"
 	"context"
 
+	"github.com/MerlinKodo/gvisor/pkg/sentry/seccheck"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 	"github.com/google/subcommands"
-	"github.com/metacubex/gvisor/pkg/sentry/seccheck"
-	"github.com/metacubex/gvisor/runsc/flag"
 )
 
 // Trace implements subcommands.Command for the "trace" command.

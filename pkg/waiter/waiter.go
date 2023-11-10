@@ -58,7 +58,7 @@
 package waiter
 
 import (
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // EventMask represents io events as used in the poll() syscall.

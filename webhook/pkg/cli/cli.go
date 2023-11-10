@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/webhook/pkg/injector"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/webhook/pkg/injector"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8snet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/client-go/kubernetes"

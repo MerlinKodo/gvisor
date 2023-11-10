@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/abi"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
-	slinux "github.com/metacubex/gvisor/pkg/sentry/syscalls/linux"
+	"github.com/MerlinKodo/gvisor/pkg/abi"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
+	slinux "github.com/MerlinKodo/gvisor/pkg/sentry/syscalls/linux"
 
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // PollEventSet is the set of poll(2) event flags.

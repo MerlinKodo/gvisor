@@ -16,7 +16,7 @@
 package pool
 
 import (
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // Pool is a simple allocator.

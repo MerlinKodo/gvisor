@@ -16,8 +16,8 @@
 package hostfd
 
 import (
-	"github.com/metacubex/gvisor/pkg/safemem"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // ReadWriterAt implements safemem.Reader and safemem.Writer by reading from

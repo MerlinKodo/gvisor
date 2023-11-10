@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // ReadSize is the default amount that a View's size is increased by when an

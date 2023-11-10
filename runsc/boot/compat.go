@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/MerlinKodo/gvisor/pkg/eventchannel"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	rpb "github.com/MerlinKodo/gvisor/pkg/sentry/arch/registers_go_proto"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/strace"
+	spb "github.com/MerlinKodo/gvisor/pkg/sentry/unimpl/unimplemented_syscall_go_proto"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
-	"github.com/metacubex/gvisor/pkg/eventchannel"
-	"github.com/metacubex/gvisor/pkg/log"
-	rpb "github.com/metacubex/gvisor/pkg/sentry/arch/registers_go_proto"
-	"github.com/metacubex/gvisor/pkg/sentry/strace"
-	spb "github.com/metacubex/gvisor/pkg/sentry/unimpl/unimplemented_syscall_go_proto"
-	"github.com/metacubex/gvisor/pkg/sync"
 )
 
 func initCompatLogs(fd int) error {

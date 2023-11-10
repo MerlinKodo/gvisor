@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/cpuid"
+	"github.com/MerlinKodo/gvisor/pkg/cpuid"
 )
 
 // SighandlerBlob contains the compiled code of the sysmsg signal handler.

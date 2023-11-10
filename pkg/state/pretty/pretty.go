@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/state"
-	"github.com/metacubex/gvisor/pkg/state/wire"
+	"github.com/MerlinKodo/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state/wire"
 )
 
 type printer struct {

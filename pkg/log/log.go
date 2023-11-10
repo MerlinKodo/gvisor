@@ -43,8 +43,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/linewriter"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/linewriter"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // Level is the log level.

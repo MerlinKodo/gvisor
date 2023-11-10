@@ -15,8 +15,8 @@
 package ptrace
 
 import (
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/seccomp"
 )
 
 // SyscallFilters returns syscalls made exclusively by the ptrace platform.

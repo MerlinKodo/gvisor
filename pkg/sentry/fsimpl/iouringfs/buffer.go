@@ -17,7 +17,7 @@ package iouringfs
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/safemem"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
 )
 
 // sharedBuffer represents a memory buffer shared between the sentry and

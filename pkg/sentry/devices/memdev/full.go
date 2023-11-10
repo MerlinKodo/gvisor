@@ -15,10 +15,10 @@
 package memdev
 
 import (
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
-	"github.com/metacubex/gvisor/pkg/usermem"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
+	"github.com/MerlinKodo/gvisor/pkg/usermem"
 )
 
 const fullDevMinor = 7

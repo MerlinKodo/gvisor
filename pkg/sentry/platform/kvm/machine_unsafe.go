@@ -29,9 +29,9 @@ import (
 	"syscall"
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
 )
 
 //go:linkname entersyscall runtime.entersyscall

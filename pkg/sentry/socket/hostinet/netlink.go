@@ -19,15 +19,15 @@ import (
 	"fmt"
 	"syscall"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/binary"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/marshal"
+	"github.com/MerlinKodo/gvisor/pkg/marshal/primitive"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/inet"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/binary"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/marshal"
-	"github.com/metacubex/gvisor/pkg/marshal/primitive"
-	"github.com/metacubex/gvisor/pkg/sentry/inet"
-	"github.com/metacubex/gvisor/pkg/tcpip"
 )
 
 func getInterfaces() (map[int32]inet.Interface, error) {

@@ -18,7 +18,7 @@
 package xdp
 
 import (
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
 )
 
 // The CompletionQueue is how the kernel tells a process which buffers have

@@ -19,9 +19,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/metacubex/gvisor/pkg/fd"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/metric"
+	"github.com/MerlinKodo/gvisor/pkg/fd"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/metric"
 )
 
 // DefaultSessionName is the name of the only session that can exist in the

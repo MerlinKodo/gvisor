@@ -20,10 +20,10 @@ import (
 	"runtime/trace"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/fd"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/urpc"
+	"github.com/MerlinKodo/gvisor/pkg/fd"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/urpc"
 )
 
 const (

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 // NullClock implements a clock that never advances.

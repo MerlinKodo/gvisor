@@ -15,8 +15,8 @@
 package usermem
 
 import (
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // IOCopyContext wraps an object implementing hostarch.IO to implement

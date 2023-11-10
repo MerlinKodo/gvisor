@@ -15,7 +15,7 @@
 package linux
 
 import (
-	"github.com/metacubex/gvisor/pkg/marshal/primitive"
+	"github.com/MerlinKodo/gvisor/pkg/marshal/primitive"
 )
 
 // Linux-specific control commands. Source: include/uapi/linux/msg.h

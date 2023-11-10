@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/sync"
-	"github.com/metacubex/gvisor/pkg/unet"
-	"github.com/metacubex/gvisor/pkg/urpc"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/unet"
+	"github.com/MerlinKodo/gvisor/pkg/urpc"
 )
 
 // curUID is the unix user ID of the user that the control server is running as.

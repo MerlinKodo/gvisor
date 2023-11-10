@@ -14,7 +14,7 @@
 
 package systrap
 
-import "github.com/metacubex/gvisor/pkg/seccomp"
+import "github.com/MerlinKodo/gvisor/pkg/seccomp"
 
 func appendSysThreadArchSeccompRules(rules []seccomp.RuleSet) []seccomp.RuleSet {
 	return rules

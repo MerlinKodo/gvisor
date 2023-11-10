@@ -19,11 +19,11 @@
 package uevent
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
-	"github.com/metacubex/gvisor/pkg/sentry/socket/netlink"
-	"github.com/metacubex/gvisor/pkg/syserr"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/socket/netlink"
+	"github.com/MerlinKodo/gvisor/pkg/syserr"
 )
 
 // Protocol implements netlink.Protocol.

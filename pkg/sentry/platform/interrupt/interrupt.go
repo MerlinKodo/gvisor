@@ -18,7 +18,7 @@ package interrupt
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // Receiver receives interrupt notifications from a Forwarder.

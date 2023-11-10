@@ -19,8 +19,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/metacubex/gvisor/pkg/fd"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/fd"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // PointX represents the checkpoint X.

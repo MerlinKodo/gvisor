@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/tmpfs"
+	"github.com/MerlinKodo/gvisor/runsc/config"
+	"github.com/MerlinKodo/gvisor/runsc/specutils"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/tmpfs"
-	"github.com/metacubex/gvisor/runsc/config"
-	"github.com/metacubex/gvisor/runsc/specutils"
 )
 
 // MountPrefix is the annotation prefix for mount hints.

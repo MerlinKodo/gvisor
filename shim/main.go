@@ -16,7 +16,7 @@
 package main
 
 import (
-	"github.com/metacubex/gvisor/shim/cli"
+	"github.com/MerlinKodo/gvisor/shim/cli"
 )
 
 func main() {

@@ -15,7 +15,7 @@
 package syncevent
 
 import (
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
 )
 
 // Receiver is an event sink that holds pending events and invokes a callback

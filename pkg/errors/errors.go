@@ -16,7 +16,7 @@
 package errors
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi/linux/errno"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux/errno"
 )
 
 // Error represents a syscall errno with a descriptive message.

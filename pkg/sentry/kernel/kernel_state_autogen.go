@@ -3,9 +3,9 @@
 package kernel
 
 import (
-	"github.com/metacubex/gvisor/pkg/bpf"
-	"github.com/metacubex/gvisor/pkg/state"
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/bpf"
+	"github.com/MerlinKodo/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 func (a *abstractEndpoint) StateTypeName() string {

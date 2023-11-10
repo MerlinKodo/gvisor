@@ -18,9 +18,9 @@ import (
 	"io"
 	"unsafe"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/safemem"
 )
 
 const (

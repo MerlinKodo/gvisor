@@ -22,8 +22,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
 	"github.com/google/subcommands"
-	"github.com/metacubex/gvisor/pkg/log"
 )
 
 // ErrorLogger is where error messages should be written to. These messages are

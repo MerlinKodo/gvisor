@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
 )
 
 // DecodeProgram translates a compiled BPF program into text format.

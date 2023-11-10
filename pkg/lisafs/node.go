@@ -15,10 +15,10 @@
 package lisafs
 
 import (
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/fspath"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/fspath"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // numStaticChildren is the number of static children tracked by each node.

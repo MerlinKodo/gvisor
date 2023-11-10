@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/metacubex/gvisor/pkg/state/wire"
+	"github.com/MerlinKodo/gvisor/pkg/state/wire"
 )
 
 // objectEncodeState the type and identity of an object occupying a memory

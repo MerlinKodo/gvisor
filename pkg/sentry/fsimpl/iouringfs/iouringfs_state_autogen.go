@@ -3,7 +3,7 @@
 package iouringfs
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (fd *FileDescription) StateTypeName() string {

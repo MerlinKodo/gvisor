@@ -18,7 +18,7 @@ package fsmetric
 import (
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/metric"
+	"github.com/MerlinKodo/gvisor/pkg/metric"
 )
 
 // RecordWaitTime enables the ReadWait, GoferReadWait9P, GoferReadWaitHost, and

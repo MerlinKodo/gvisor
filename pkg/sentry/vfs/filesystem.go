@@ -15,11 +15,11 @@
 package vfs
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/fspath"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/auth"
-	"github.com/metacubex/gvisor/pkg/sentry/socket/unix/transport"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/fspath"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/auth"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/socket/unix/transport"
 )
 
 // A Filesystem is a tree of nodes represented by Dentries, which forms part of

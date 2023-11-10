@@ -17,7 +17,7 @@ package stack
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 const (

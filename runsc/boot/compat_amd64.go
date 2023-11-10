@@ -17,11 +17,11 @@ package boot
 import (
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/abi"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	rpb "github.com/MerlinKodo/gvisor/pkg/sentry/arch/registers_go_proto"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/strace"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	rpb "github.com/metacubex/gvisor/pkg/sentry/arch/registers_go_proto"
-	"github.com/metacubex/gvisor/pkg/sentry/strace"
 )
 
 const (

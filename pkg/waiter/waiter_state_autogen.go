@@ -3,7 +3,7 @@
 package waiter
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (e *Entry) StateTypeName() string {

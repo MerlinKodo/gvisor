@@ -15,7 +15,7 @@
 package kernel
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
 )
 
 // SignalHandlers holds information about signal actions.

@@ -19,8 +19,8 @@ package primitive
 import (
 	"io"
 
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/marshal"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/marshal"
 )
 
 // Int8 is a marshal.Marshallable implementation for int8.

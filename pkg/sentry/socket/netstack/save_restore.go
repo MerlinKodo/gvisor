@@ -15,7 +15,7 @@
 package netstack
 
 import (
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
 )
 
 // afterLoad is invoked by stateify.

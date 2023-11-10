@@ -15,19 +15,19 @@
 package kernel
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/bpf"
-	"github.com/metacubex/gvisor/pkg/cleanup"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/kernfs"
-	"github.com/metacubex/gvisor/pkg/sentry/fsimpl/nsfs"
-	"github.com/metacubex/gvisor/pkg/sentry/inet"
-	"github.com/metacubex/gvisor/pkg/sentry/seccheck"
-	pb "github.com/metacubex/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"github.com/metacubex/gvisor/pkg/sentry/vfs"
-	"github.com/metacubex/gvisor/pkg/usermem"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/bpf"
+	"github.com/MerlinKodo/gvisor/pkg/cleanup"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/kernfs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/fsimpl/nsfs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/inet"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/seccheck"
+	pb "github.com/MerlinKodo/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/vfs"
+	"github.com/MerlinKodo/gvisor/pkg/usermem"
 )
 
 // SupportedCloneFlags is the bitwise OR of all the supported flags for clone.

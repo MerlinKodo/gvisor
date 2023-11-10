@@ -14,7 +14,7 @@
 
 package header
 
-import "github.com/metacubex/gvisor/pkg/tcpip"
+import "github.com/MerlinKodo/gvisor/pkg/tcpip"
 
 // NDPNeighborSolicit is an NDP Neighbor Solicitation message. It will only
 // contain the body of an ICMPv6 packet.

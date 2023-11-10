@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel"
 )
 
 // Cgroups contains the state for cgroupfs related control commands.

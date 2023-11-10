@@ -17,8 +17,8 @@ package stack
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
 )
 
 // Route represents a route through the networking stack to a given destination.

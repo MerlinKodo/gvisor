@@ -17,8 +17,8 @@ package fsutil
 import (
 	"math"
 
-	"github.com/metacubex/gvisor/pkg/sentry/memmap"
-	"github.com/metacubex/gvisor/pkg/sentry/usage"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/memmap"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/usage"
 )
 
 // FrameRefSegInfo holds reference count and memory cgroup id of the segment.

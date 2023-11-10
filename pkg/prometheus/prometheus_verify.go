@@ -23,7 +23,7 @@ import (
 	"time"
 	"unicode"
 
-	pb "github.com/metacubex/gvisor/pkg/metric/metric_go_proto"
+	pb "github.com/MerlinKodo/gvisor/pkg/metric/metric_go_proto"
 )
 
 const (

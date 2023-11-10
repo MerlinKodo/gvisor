@@ -25,10 +25,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/refs"
-	"github.com/metacubex/gvisor/pkg/sentry/watchdog"
-	"github.com/metacubex/gvisor/runsc/flag"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/refs"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/watchdog"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 )
 
 // RegisterFlags registers flags used to populate Config.

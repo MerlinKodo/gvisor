@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/metacubex/gvisor/pkg/cleanup"
-	"github.com/metacubex/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/cleanup"
+	"github.com/MerlinKodo/gvisor/pkg/context"
 )
 
 // proxyConn is a port forwarding connection. It is used to manage the

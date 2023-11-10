@@ -15,10 +15,10 @@
 package filter
 
 import (
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/seccomp"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/socket/hostinet"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/seccomp"
-	"github.com/metacubex/gvisor/pkg/sentry/socket/hostinet"
 )
 
 // hostInetFilters contains syscalls that are needed by sentry/socket/hostinet.

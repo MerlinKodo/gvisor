@@ -21,10 +21,10 @@ package unet
 import (
 	"errors"
 
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/eventfd"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/eventfd"
-	"github.com/metacubex/gvisor/pkg/sync"
 )
 
 // backlog is used for the listen request.

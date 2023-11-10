@@ -20,7 +20,7 @@ package atomicbitops
 import (
 	"sync/atomic"
 
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // Int64 is an atomic int64 that is guaranteed to be 64-bit

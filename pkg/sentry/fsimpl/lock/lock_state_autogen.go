@@ -3,7 +3,7 @@
 package lock
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (o *OwnerInfo) StateTypeName() string {

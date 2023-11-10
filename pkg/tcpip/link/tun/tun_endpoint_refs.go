@@ -3,8 +3,8 @@ package tun
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/refs"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/refs"
 )
 
 // enableLogging indicates whether reference-related events should be logged (with

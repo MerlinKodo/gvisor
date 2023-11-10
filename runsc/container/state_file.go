@@ -24,10 +24,10 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 	"github.com/gofrs/flock"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/sync"
 )
 
 const stateFileExtension = "state"

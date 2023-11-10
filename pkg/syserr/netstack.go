@@ -17,8 +17,8 @@ package syserr
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux/errno"
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux/errno"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 // LINT.IfChange

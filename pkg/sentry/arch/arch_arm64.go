@@ -22,11 +22,11 @@ import (
 	"math/rand"
 
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/marshal"
-	"github.com/metacubex/gvisor/pkg/marshal/primitive"
-	"github.com/metacubex/gvisor/pkg/sentry/arch/fpu"
-	"github.com/metacubex/gvisor/pkg/sentry/limits"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/marshal"
+	"github.com/MerlinKodo/gvisor/pkg/marshal/primitive"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch/fpu"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/limits"
 )
 
 // Host specifies the host architecture.

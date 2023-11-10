@@ -3,7 +3,7 @@
 package network
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (e *Endpoint) StateTypeName() string {

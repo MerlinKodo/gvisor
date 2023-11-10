@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/eventchannel"
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/auth"
-	ucspb "github.com/metacubex/gvisor/pkg/sentry/kernel/uncaught_signal_go_proto"
-	"github.com/metacubex/gvisor/pkg/waiter"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/eventchannel"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/auth"
+	ucspb "github.com/MerlinKodo/gvisor/pkg/sentry/kernel/uncaught_signal_go_proto"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 )
 
 // SignalAction is an internal signal action.

@@ -21,11 +21,11 @@ import (
 	"encoding/binary"
 	"unsafe"
 
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/marshal/primitive"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/platform/systrap/sysmsg"
-	"github.com/metacubex/gvisor/pkg/usermem"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/marshal/primitive"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/MerlinKodo/gvisor/pkg/usermem"
 )
 
 // addTrapLocked constructs a trampoline for a specified syscall.

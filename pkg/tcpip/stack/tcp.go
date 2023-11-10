@@ -17,11 +17,11 @@ package stack
 import (
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/internal/tcp"
-	"github.com/metacubex/gvisor/pkg/tcpip/seqnum"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/internal/tcp"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/seqnum"
 )
 
 // TCPProbeFunc is the expected function type for a TCP probe function to be

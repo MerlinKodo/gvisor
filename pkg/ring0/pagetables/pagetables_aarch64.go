@@ -20,7 +20,7 @@ package pagetables
 import (
 	"sync/atomic"
 
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // archPageTables is architecture-specific data.

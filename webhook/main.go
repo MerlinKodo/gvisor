@@ -16,7 +16,7 @@
 package main
 
 import (
-	"github.com/metacubex/gvisor/webhook/pkg/cli"
+	"github.com/MerlinKodo/gvisor/webhook/pkg/cli"
 )
 
 func main() {

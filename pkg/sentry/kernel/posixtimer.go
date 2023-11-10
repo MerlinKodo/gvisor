@@ -17,9 +17,9 @@ package kernel
 import (
 	"math"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	ktime "github.com/metacubex/gvisor/pkg/sentry/kernel/time"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	ktime "github.com/MerlinKodo/gvisor/pkg/sentry/kernel/time"
 )
 
 // IntervalTimer represents a POSIX interval timer as described by

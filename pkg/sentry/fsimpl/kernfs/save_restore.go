@@ -15,7 +15,7 @@
 package kernfs
 
 import (
-	"github.com/metacubex/gvisor/pkg/refs"
+	"github.com/MerlinKodo/gvisor/pkg/refs"
 )
 
 // afterLoad is invoked by stateify.

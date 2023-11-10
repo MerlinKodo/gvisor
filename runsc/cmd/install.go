@@ -24,10 +24,10 @@ import (
 	"path"
 	"regexp"
 
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform"
+	"github.com/MerlinKodo/gvisor/runsc/config"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 	"github.com/google/subcommands"
-	"github.com/metacubex/gvisor/pkg/sentry/platform"
-	"github.com/metacubex/gvisor/runsc/config"
-	"github.com/metacubex/gvisor/runsc/flag"
 )
 
 // Install implements subcommands.Command.

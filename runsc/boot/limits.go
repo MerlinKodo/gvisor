@@ -17,11 +17,11 @@ package boot
 import (
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/limits"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/sentry/limits"
-	"github.com/metacubex/gvisor/pkg/sync"
 )
 
 func findName(lt limits.LimitType) string {

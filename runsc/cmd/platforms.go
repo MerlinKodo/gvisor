@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/MerlinKodo/gvisor/pkg/sentry/platform"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 	"github.com/google/subcommands"
-	"github.com/metacubex/gvisor/pkg/sentry/platform"
-	"github.com/metacubex/gvisor/runsc/flag"
 )
 
 // Platforms implements subcommands.Command for the "platforms" command.

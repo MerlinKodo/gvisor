@@ -23,10 +23,10 @@ import (
 	"runtime"
 	"syscall"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/syndtr/gocapability/capability"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
 )
 
 // nsCloneFlag returns the clone flag that can be used to set a namespace of

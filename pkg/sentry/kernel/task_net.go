@@ -15,7 +15,7 @@
 package kernel
 
 import (
-	"github.com/metacubex/gvisor/pkg/sentry/inet"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/inet"
 )
 
 // IsNetworkNamespaced returns true if t is in a non-root network namespace.

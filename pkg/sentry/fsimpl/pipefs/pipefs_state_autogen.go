@@ -3,7 +3,7 @@
 package pipefs
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (f *filesystemType) StateTypeName() string {

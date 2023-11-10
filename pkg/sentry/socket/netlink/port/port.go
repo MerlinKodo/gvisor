@@ -25,7 +25,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // maxPorts is a sanity limit on the maximum number of ports to allocate per

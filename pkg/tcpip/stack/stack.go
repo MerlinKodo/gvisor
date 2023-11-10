@@ -27,15 +27,15 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/buffer"
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	cryptorand "github.com/MerlinKodo/gvisor/pkg/rand"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/ports"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 	"golang.org/x/time/rate"
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/buffer"
-	"github.com/metacubex/gvisor/pkg/log"
-	cryptorand "github.com/metacubex/gvisor/pkg/rand"
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/ports"
-	"github.com/metacubex/gvisor/pkg/waiter"
 )
 
 const (

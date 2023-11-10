@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/metacubex/gvisor/pkg/log"
 )
 
 // This file implements hooks as defined in OCI spec:

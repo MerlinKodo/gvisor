@@ -17,7 +17,7 @@ package kernel
 import (
 	"unsafe"
 
-	"github.com/metacubex/gvisor/pkg/safemem"
+	"github.com/MerlinKodo/gvisor/pkg/safemem"
 )
 
 // countBlock provides a safemem.BlockSeq for kcov.count.

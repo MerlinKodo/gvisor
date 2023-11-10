@@ -17,8 +17,8 @@ package p9
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // pathNode is a single node in a path traversal.

@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/MerlinKodo/gvisor/pkg/metric"
+	"github.com/MerlinKodo/gvisor/runsc/cmd/util"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 	"github.com/google/subcommands"
 	"google.golang.org/protobuf/encoding/prototext"
-	"github.com/metacubex/gvisor/pkg/metric"
-	"github.com/metacubex/gvisor/runsc/cmd/util"
-	"github.com/metacubex/gvisor/runsc/flag"
 )
 
 // MetricMetadata implements subcommands.Command for the "metric-metadata" command.

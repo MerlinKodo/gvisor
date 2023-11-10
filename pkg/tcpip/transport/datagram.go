@@ -17,7 +17,7 @@ package transport
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 // DatagramEndpointState is the state of a datagram-based endpoint.

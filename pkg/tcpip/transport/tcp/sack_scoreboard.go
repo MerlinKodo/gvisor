@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/seqnum"
 	"github.com/google/btree"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/seqnum"
 )
 
 const (

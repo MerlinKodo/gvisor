@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/MerlinKodo/gvisor/runsc/config"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/metacubex/gvisor/runsc/config"
 )
 
 const nvdEnvVar = "NVIDIA_VISIBLE_DEVICES"

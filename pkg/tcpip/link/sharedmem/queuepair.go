@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/MerlinKodo/gvisor/pkg/eventfd"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/eventfd"
 )
 
 const (

@@ -18,8 +18,8 @@ package hash
 import (
 	"encoding/binary"
 
-	"github.com/metacubex/gvisor/pkg/rand"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/rand"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
 )
 
 var hashIV = RandN32(1)[0]

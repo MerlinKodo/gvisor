@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/checksum"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/checksum"
 )
 
 // IGMP represents an IGMP header stored in a byte array.

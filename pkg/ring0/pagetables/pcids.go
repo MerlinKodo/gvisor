@@ -15,7 +15,7 @@
 package pagetables
 
 import (
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 // PCIDs is a simple PCID database.

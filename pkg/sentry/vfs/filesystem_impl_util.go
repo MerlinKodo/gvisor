@@ -17,8 +17,8 @@ package vfs
 import (
 	"strings"
 
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
 )
 
 // GenericParseMountOptions parses a comma-separated list of options of the

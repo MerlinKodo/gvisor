@@ -3,7 +3,7 @@
 package inet
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (t *TCPBufferSize) StateTypeName() string {

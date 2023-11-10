@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/MerlinKodo/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/control"
+	"github.com/MerlinKodo/gvisor/runsc/cmd/util"
+	"github.com/MerlinKodo/gvisor/runsc/config"
+	"github.com/MerlinKodo/gvisor/runsc/container"
+	"github.com/MerlinKodo/gvisor/runsc/flag"
 	"github.com/google/subcommands"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/log"
-	"github.com/metacubex/gvisor/pkg/sentry/control"
-	"github.com/metacubex/gvisor/runsc/cmd/util"
-	"github.com/metacubex/gvisor/runsc/config"
-	"github.com/metacubex/gvisor/runsc/container"
-	"github.com/metacubex/gvisor/runsc/flag"
 )
 
 // Debug implements subcommands.Command for the "debug" command.

@@ -6,8 +6,8 @@ import argparse
 import fileinput
 
 
-PKG_ORIGINAL = "gvisor.dev/gvisor"
-PKG_NEW = "github.com/metacubex/gvisor"
+PKG_ORIGINAL = "github.com/metacubex/gvisor"
+PKG_NEW = "github.com/MerlinKodo/gvisor"
 
 EXTENSIONS = [".go", ".md", ".mod", ".sh"]
 

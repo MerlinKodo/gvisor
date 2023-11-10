@@ -3,7 +3,7 @@
 package tmpfs
 
 import (
-	"github.com/metacubex/gvisor/pkg/state"
+	"github.com/MerlinKodo/gvisor/pkg/state"
 )
 
 func (l *dentryList) StateTypeName() string {

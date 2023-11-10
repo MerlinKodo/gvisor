@@ -17,8 +17,8 @@ package vfs
 import (
 	"fmt"
 
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
 )
 
 // DeviceKind indicates whether a device is a block or character device.

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/metacubex/gvisor/pkg/fd"
-	"github.com/metacubex/gvisor/pkg/log"
+	"github.com/MerlinKodo/gvisor/pkg/fd"
+	"github.com/MerlinKodo/gvisor/pkg/log"
 )
 
 // ErrInvalidMsgType is returned when an unsupported message type is found.

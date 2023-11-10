@@ -19,13 +19,13 @@ import (
 	"io"
 	"sync"
 
+	"github.com/MerlinKodo/gvisor/pkg/cleanup"
+	"github.com/MerlinKodo/gvisor/pkg/context"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	fileDescriptor "github.com/MerlinKodo/gvisor/pkg/fd"
+	"github.com/MerlinKodo/gvisor/pkg/fdnotifier"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/cleanup"
-	"github.com/metacubex/gvisor/pkg/context"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	fileDescriptor "github.com/metacubex/gvisor/pkg/fd"
-	"github.com/metacubex/gvisor/pkg/fdnotifier"
-	"github.com/metacubex/gvisor/pkg/waiter"
 )
 
 var (

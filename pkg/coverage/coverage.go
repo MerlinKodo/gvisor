@@ -35,8 +35,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/metacubex/gvisor/pkg/hostarch"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/hostarch"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 
 	"github.com/bazelbuild/rules_go/go/tools/coverdata"
 )

@@ -21,7 +21,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/metacubex/gvisor/pkg/state/wire"
+	"github.com/MerlinKodo/gvisor/pkg/state/wire"
 )
 
 // internalCallback is a interface called on object completion.

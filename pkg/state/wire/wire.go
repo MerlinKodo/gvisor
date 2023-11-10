@@ -32,7 +32,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/metacubex/gvisor/pkg/gohacks"
+	"github.com/MerlinKodo/gvisor/pkg/gohacks"
 )
 
 // Reader is the required reader interface.

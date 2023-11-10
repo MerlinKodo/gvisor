@@ -18,9 +18,9 @@
 package kvm
 
 import (
-	"github.com/metacubex/gvisor/pkg/cpuid"
-	"github.com/metacubex/gvisor/pkg/ring0"
-	"github.com/metacubex/gvisor/pkg/sentry/arch/fpu"
+	"github.com/MerlinKodo/gvisor/pkg/cpuid"
+	"github.com/MerlinKodo/gvisor/pkg/ring0"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch/fpu"
 )
 
 // userRegs represents KVM user registers.

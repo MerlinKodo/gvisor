@@ -15,8 +15,8 @@
 package kernel
 
 import (
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	"github.com/metacubex/gvisor/pkg/sentry/kernel/auth"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/kernel/auth"
 )
 
 // SessionKeyring returns this Task's session keyring.

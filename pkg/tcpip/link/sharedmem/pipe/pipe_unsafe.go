@@ -17,7 +17,7 @@ package pipe
 import (
 	"unsafe"
 
-	"github.com/metacubex/gvisor/pkg/atomicbitops"
+	"github.com/MerlinKodo/gvisor/pkg/atomicbitops"
 )
 
 func (p *pipe) write(idx uint64, v uint64) {

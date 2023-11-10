@@ -24,6 +24,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/MerlinKodo/gvisor/pkg/cleanup"
 	"github.com/containerd/console"
 	"github.com/containerd/containerd/errdefs"
 	"github.com/containerd/containerd/log"
@@ -32,9 +33,8 @@ import (
 	runc "github.com/containerd/go-runc"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/cleanup"
 
-	"github.com/metacubex/gvisor/pkg/shim/runsc"
+	"github.com/MerlinKodo/gvisor/pkg/shim/runsc"
 )
 
 type execProcess struct {

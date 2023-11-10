@@ -15,7 +15,7 @@
 package kernel
 
 import (
-	"github.com/metacubex/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
 )
 
 // saveDanglingEndpoints is invoked by stateify.

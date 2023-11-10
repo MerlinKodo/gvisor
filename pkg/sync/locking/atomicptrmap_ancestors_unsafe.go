@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/metacubex/gvisor/pkg/gohacks"
-	"github.com/metacubex/gvisor/pkg/sync"
+	"github.com/MerlinKodo/gvisor/pkg/gohacks"
+	"github.com/MerlinKodo/gvisor/pkg/sync"
 )
 
 const (

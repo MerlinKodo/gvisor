@@ -18,8 +18,8 @@
 package tcpconntrack
 
 import (
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/seqnum"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/seqnum"
 )
 
 // Result is returned when the state of a TCB is updated in response to a

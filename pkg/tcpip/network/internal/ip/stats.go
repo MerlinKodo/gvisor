@@ -14,7 +14,7 @@
 
 package ip
 
-import "github.com/metacubex/gvisor/pkg/tcpip"
+import "github.com/MerlinKodo/gvisor/pkg/tcpip"
 
 // LINT.IfChange(MultiCounterIPForwardingStats)
 

@@ -15,9 +15,9 @@
 package ring0
 
 import (
-	"github.com/metacubex/gvisor/pkg/ring0/pagetables"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
-	"github.com/metacubex/gvisor/pkg/sentry/arch/fpu"
+	"github.com/MerlinKodo/gvisor/pkg/ring0/pagetables"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch/fpu"
 )
 
 // Kernel is a global kernel object.

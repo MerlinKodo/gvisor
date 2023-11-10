@@ -17,11 +17,11 @@ package kernel
 // Accounting, limits, timers.
 
 import (
-	"github.com/metacubex/gvisor/pkg/abi/linux"
-	"github.com/metacubex/gvisor/pkg/errors/linuxerr"
-	ktime "github.com/metacubex/gvisor/pkg/sentry/kernel/time"
-	"github.com/metacubex/gvisor/pkg/sentry/limits"
-	"github.com/metacubex/gvisor/pkg/sentry/usage"
+	"github.com/MerlinKodo/gvisor/pkg/abi/linux"
+	"github.com/MerlinKodo/gvisor/pkg/errors/linuxerr"
+	ktime "github.com/MerlinKodo/gvisor/pkg/sentry/kernel/time"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/limits"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/usage"
 )
 
 // Getitimer implements getitimer(2).

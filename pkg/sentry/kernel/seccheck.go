@@ -15,8 +15,8 @@
 package kernel
 
 import (
-	"github.com/metacubex/gvisor/pkg/sentry/seccheck"
-	pb "github.com/metacubex/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/seccheck"
+	pb "github.com/MerlinKodo/gvisor/pkg/sentry/seccheck/points/points_go_proto"
 )
 
 func getTaskCurrentWorkingDirectory(t *Task) string {

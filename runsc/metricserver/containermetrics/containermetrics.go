@@ -22,8 +22,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/metacubex/gvisor/pkg/prometheus"
-	"github.com/metacubex/gvisor/runsc/container"
+	"github.com/MerlinKodo/gvisor/pkg/prometheus"
+	"github.com/MerlinKodo/gvisor/runsc/container"
 )
 
 // SandboxPrometheusLabels returns a set of Prometheus labels that identifies the sandbox running

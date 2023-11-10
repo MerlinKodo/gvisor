@@ -18,9 +18,9 @@
 package kvm
 
 import (
+	"github.com/MerlinKodo/gvisor/pkg/ring0"
+	"github.com/MerlinKodo/gvisor/pkg/sentry/arch"
 	"golang.org/x/sys/unix"
-	"github.com/metacubex/gvisor/pkg/ring0"
-	"github.com/metacubex/gvisor/pkg/sentry/arch"
 )
 
 var (
